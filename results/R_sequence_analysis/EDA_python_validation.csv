@@ -1,0 +1,5 @@
+Species,Accession,Length_aa,Expected_aa,Valid_Amino_Acids,Length_Matches,Accession_Matches
+human,NP_001390.1,391,391,True,True,True
+mouse,NP_034229.1,391,391,True,True,True
+rat,NP_001292172.1,391,391,True,True,True
+chicken,NP_001409628.1,351,351,True,True,True

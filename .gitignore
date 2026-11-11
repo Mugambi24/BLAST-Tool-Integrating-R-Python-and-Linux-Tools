@@ -1,0 +1,40 @@
+# R session files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment and temporary files
+.env
+*.log
+.DS_Store
+
+# Generated BLAST database indexes
+*.phr
+*.pin
+*.psq
+*.nhr
+*.nin
+*.nsq
+*.pdb
+*.pot
+*.ptf
+*.pto
+*.ndb
+*.not
+*.ntf
+*.nto
+
+# Temporary files
+*.tmp
+*~
+
+# Additional generated BLAST+ database files
+*.pjs
+*.pog
+*.pos

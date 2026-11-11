@@ -1,0 +1,5 @@
+"Species","Length_aa","Expected_aa","Valid_Amino_Acids","Length_Matches"
+"human",391,391,TRUE,TRUE
+"mouse",391,391,TRUE,TRUE
+"rat",391,391,TRUE,TRUE
+"chicken",351,351,TRUE,TRUE

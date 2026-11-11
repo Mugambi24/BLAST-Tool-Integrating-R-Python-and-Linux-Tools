@@ -1,0 +1,13 @@
+EDA Protein Sequence Analysis
+Author: Mugambi Isaiah Alois
+Date: Fri Oct 30 20:05:58 GMT 2026
+
+BLAST+ version:
+blastp: 2.16.0+
+ Package: blast 2.16.0, build May  4 2025 03:42:51
+
+Python version:
+Python 3.14.4
+
+R version:
+R version 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble"

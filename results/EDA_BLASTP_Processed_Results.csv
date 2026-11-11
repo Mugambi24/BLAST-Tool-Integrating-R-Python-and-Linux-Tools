@@ -1,0 +1,4 @@
+"Query","Subject","Identity","Alignment_Length","Query_Coverage","E_value","Bit_Score","Species"
+"NP_001390.1","NP_001292172.1",94.885,391,100,0,570,"Rattus norvegicus"
+"NP_001390.1","NP_034229.1",94.629,391,100,0,569,"Mus musculus"
+"NP_001390.1","NP_001409628.1",76.216,370,94,2.93e-137,385,"Gallus gallus"

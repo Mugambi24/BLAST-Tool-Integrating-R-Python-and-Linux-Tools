@@ -1,0 +1,18 @@
+   44  blastp -version
+   47  blastp -version
+   48  makeblastdb -version
+   53  blastp -version
+   56  blastp -version
+   57  makeblastdb -version
+   89  makeblastdb -in database/EDA_reference.faa -dbtype prot -out database/EDA_db
+   90  blastp   -query sequences/human_EDA.faa   -db database/EDA_db   -task blastp   -out results/EDA_BLASTP_results.tsv   -outfmt "6 qseqid sseqid pident length qcovs evalue bitscore"   -num_threads 2
+   93  blastp -query sequences/human_EDA.faa -db database/EDA_db -task blastp -out results/EDA_BLASTP_results.tsv -outfmt "6 qseqid sseqid pident length qcovs evalue bitscore" -num_threads 2
+   99  blastp   -query sequences/human_EDA.faa   -db database/EDA_db   -task blastp   -max_hsps 1   -out results/EDA_BLASTP_best_hits.tsv   -outfmt "6 qseqid sseqid pident length qcovs evalue bitscore"   -num_threads 2
+  196  makeblastdb   -in database/EDA_subjects.faa   -dbtype prot   -out database/EDA_db
+  197  blastp   -query sequences/human_EDA.faa   -db database/EDA_db   -task blastp   -max_hsps 1   -out results/EDA_BLASTP_best_hits.tsv   -outfmt "6 qseqid sseqid pident length qcovs evalue bitscore"   -num_threads 2
+  204  makeblastdb   -in database/validated/EDA_subjects.faa   -dbtype prot   -parse_seqids   -out database/validated/EDA_db
+  206  blastp   -query sequences/human_EDA_R.faa   -db database/validated/EDA_db   -task blastp   -max_hsps 1   -out results/EDA_BLASTP_validated.tsv   -outfmt "6 qseqid sseqid pident length qcovs evalue bitscore"   -num_threads 2
+  218  history | grep -E 'blastp|makeblastdb'
+  220  makeblastdb   -in database/validated/EDA_subjects.faa   -dbtype prot   -parse_seqids   -out database/validated/EDA_db
+  264  { echo "EDA Protein Sequence Analysis"; echo "Author: Mugambi Isaiah Alois"; echo "Date: $(date)"; echo; echo "BLAST+ version:"; blastp -version; echo; echo "Python version:"; python3 --version; echo; echo "R version:"; R --version | head -n 1; } > documentation/software_versions.txt
+  266  history | grep -E "blastp|makeblastdb" > documentation/analysis_history.txt
