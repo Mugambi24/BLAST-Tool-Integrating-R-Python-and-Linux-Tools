@@ -93,7 +93,7 @@ To make the analysis fully reproducible, retain the exact FASTA input files, pac
 
 ## Author
 
-**Mugambi Isaiah Alois**  
+**Mugambi Isaiah**  
 Bioinformatics | Computational Genomics | Molecular Biology  
 GitHub: [Mugambi24](https://github.com/Mugambi24)
 
